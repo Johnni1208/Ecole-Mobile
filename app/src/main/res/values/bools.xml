@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- default bool for the already logged in state -->
+    <bool name="pref_already_logged_in_default">false</bool>
+
+    <!-- default bool for is_schuler state -->
+    <bool name="pref_is_schueler_default">false</bool>
+
+    <!-- default bool for is_lehrer state -->
+    <bool name="pref_is_lehrer_default">false</bool>
+    <!-- default bool for lehrer_frau state -->
+    <bool name="pref_lehrer_frau_default">false</bool>
+    <!-- default bool for lehrer_mann state -->
+    <bool name="pref_lehrer_mann_default">false</bool>
+</resources>

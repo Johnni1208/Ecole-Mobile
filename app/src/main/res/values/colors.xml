@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#ededed</color>
+    <color name="colorAccent">#e01a25</color>
+    <color name="colorAccentLight">#FFDC3841</color>
+    <color name="colorAccentDark">#AE141D</color>
+    <color name="colorButtonMain">#d4d5d6</color>
+    <color name="white">#fff</color>
+    <color name="colorDivider">#1A000000</color>
+    <color name="black">#000</color>
+    <color name="grey">@android:color/darker_gray</color>
+    <color name="semitransparent_white">#FFEEEEEE</color>
+    <color name="emailBlue">#1a237e</color>
+</resources>

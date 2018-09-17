@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for the loggin screen -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.johnlouisjacobs.ecolemobile.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Image view with icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="50dp">
+
+            <ImageView
+
+                android:id="@+id/login_ecole_icon"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_ecole_icon"
+                android:transitionName="@string/trans_ecole_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/transition_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+
+            <LinearLayout
+                android:id="@+id/content_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_schueler"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/button_schueler" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_lehrer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/button_lehrer" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/spinner_container"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <Spinner
+                            android:id="@+id/spinner_schueler"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/edit_container"
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lehrer_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/radio_frau"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:text="@string/text_checkbox_frau" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_herr"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="@string/text_checkbox_herr" />
+
+                            </LinearLayout>
+
+                            <EditText
+                                android:id="@+id/edit_lehrer"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:hint="@string/hint_lehrerkuerzel"
+                                android:inputType="text"
+                                android:lines="1"
+                                android:maxLines="1" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/edit_Vplan_Passwort"
+                        android:layout_width="0dp"
+                        android:layout_weight="10"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_vplan_pw"
+                        android:inputType="textPassword"
+                        android:textAlignment="center"
+                        />
+                    <ImageView
+                        android:id="@+id/vplan_passwort_checker"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_close_red"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edit_Essen_Kundennummer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/hint_essen_kundennummer"
+                        android:inputType="text"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/edit_Essen_Passwort"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/hint_essen_pw"
+                        android:inputType="textPassword"
+                        android:textAlignment="center" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/button_login" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

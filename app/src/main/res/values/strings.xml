@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Ecole Mobile</string>
+
+    <!-- String resources for the activity names -->
+    <string name="action_settings">Einstellungen</string>
+
+
+    <!-- Preferences Strings -->
+    <!-- Preference for holding the date -->
+    <string name="pref_date_key">date_key</string>
+    <string name="pref_date_default"> </string>
+
+    <!-- Preference for holding the addtional info -->
+    <string name="pref_additional_key">additional_key</string>
+    <string name="pref_additional_default"> </string>
+
+    <!-- Preference for already logged in -->
+    <string name="pref_logged_in_key">logged_in</string>
+
+    <!-- Preferences for storing personal data -->
+    <!-- Key for schueler -->
+    <string name="pref_is_schueler_key">is_schueler</string>
+    <!-- Key for schuler_klasse -->
+    <string name="pref_schueler_klasse_key">schueler_klasse</string>
+    <!-- Default value for schueler_klasse -->
+    <string name="pref_schueler_klasse_default"> </string>
+
+    <!-- Key for lehrer -->
+    <string name="pref_is_lehrer_key">is_lehrer</string>
+    <!-- Key for frau -->
+    <string name="pref_lehrer_frau_key">lehrer_frau</string>
+    <!-- Key for herr -->
+    <string name="pref_lehrer_mann_key">lehrer_mann</string>
+    <!-- Key for lehrer nachname -->
+    <string name="pref_lehrer_nachname_key">lehrer_nachname</string>
+    <!-- Default value for lehrer nachname -->
+    <string name="pref_lehrer_nachname_default"> </string>
+    <!-- Key for full lehrer name -->
+    <string name="pref_full_lehrer_name_key">full_lehrer_name</string>
+    <!-- Default value for the full lehrer name -->
+    <string name="pref_full_lehrer_name_default"> </string>
+
+    <!-- Key for Vplan Passwort -->
+    <string name="pref_vplan_passwort_key">vplan_passwort</string>
+    <!-- Default Value for Vplan passwort -->
+    <string name="pref_vplan_passwort_default"> </string>
+
+    <!-- Key for essen kundennummer -->
+    <string name="pref_essen_kundennummer_key">essen_kundennummer</string>
+    <!-- Default Value for essen kundennummer -->
+    <string name="pref_essen_kundennummer_default"> </string>
+
+    <!-- Key for essen passwort -->
+    <string name="pref_essen_passwort_key">essen_passwort</string>
+    <!-- Default Value for essen passwort -->
+    <string name="pref_essen_passwort_default"> </string>
+
+
+    <!-- Transitions Strings -->
+    <!-- Ecole Icon Transition -->
+    <string name="trans_ecole_icon">transition_ecole_icon</string>
+
+    <!-- Login Layout -->
+    <string name="button_schueler">Schüler</string>
+    <string name="button_lehrer">Lehrer</string>
+    <string name="button_login">Einloggen</string>
+    <string name="text_checkbox_herr">Herr</string>
+    <string name="text_checkbox_frau">Frau</string>
+    <string name="hint_lehrerkuerzel">Hintername…</string>
+    <string name="hint_vplan_pw">Vertretungsplan Passwort… (erforderlich)</string>
+    <string name="hint_essen_kundennummer">Essen-Kundennummer…</string>
+    <string name="hint_essen_pw">Essen-Passwort…</string>
+    <string name="toast_missing_argument">Überprüfen Sie ihre Angaben.</string>
+
+    <!-- Main Fragment -->
+    <string name="text_titel_deine_vertretung">Deine Vertretung</string>
+    <string name="text_no_vertretung">Du hast keine Vertretung.</string>
+    <string name="text_toast_logged_out">Ausgeloggt</string>
+    <!-- Options Menu -->
+    <string name="text_menu_logout">Logout</string>
+
+    <!-- Vertretungs Fragment -->
+    <string name="text_message_no_connection">Benutze bereits heruntergeladenen Plan vom </string>
+    <string name="text_loading_new_content">Lade neue Inhalte...</string>
+
+    <!-- Help Activity -->
+    <string name="text_impressum">ECOLE Stiftung\nSchulstraße 12\n39179 Barleben\nwww.ecole-stiftung.de </string>
+    <string name="text_hilfe">Für alle Inhalte in dieser App, bis auf die Webseite des Essensdienstes und Inhalt des Vertretungsplans, ist John-Louis Jacobs verantwortlich.\nBei Fragen wende dich bitte an</string>
+    <string name="text_email">developer@johnlouisjacobs.de</string>
+    <string name="text_email_intent">Eine E-Mail an den Meister senden</string>
+    <!-- Extras -->
+    <string name="text_no_connection">Keine Internetverbindung.</string>
+    <string name="text_help">Hilfe &amp; Impressum</string>
+</resources>

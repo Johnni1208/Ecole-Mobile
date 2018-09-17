@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Is shown at the beginning of the app -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first_screen_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.johnlouisjacobs.ecolemobile.SplashActivity">
+
+    <!-- Image view with icon -->
+    <ImageView
+        android:id="@+id/first_screen_ecole_icon"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_ecole_icon"
+        android:transitionName="@string/trans_ecole_icon" /> <!-- Used for transition Animating -->
+
+</LinearLayout>

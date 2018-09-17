@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Is schueler -->
+    <Preference
+        android:key="@string/pref_is_schueler_key"
+        android:defaultValue="@bool/pref_is_schueler_default"/>
+    <!-- Schueler Klasse -->
+    <Preference
+        android:key="@string/pref_schueler_klasse_key"
+        android:defaultValue="@string/pref_schueler_klasse_default"/>
+    <!-- Is lehrer -->
+    <Preference
+        android:key="@string/pref_is_lehrer_key"
+        android:defaultValue="@bool/pref_is_lehrer_default"/>
+    <!-- Is frau -->
+    <Preference
+        android:key="@string/pref_lehrer_frau_key"
+        android:defaultValue="@bool/pref_lehrer_frau_default"/>
+    <!-- Is mann -->
+    <Preference
+        android:key="@string/pref_is_schueler_key"
+        android:defaultValue="@bool/pref_lehrer_mann_default"/>
+    <!-- Lehrer Nachname -->
+    <Preference
+        android:key="@string/pref_lehrer_nachname_key"
+        android:defaultValue="@string/pref_lehrer_nachname_default"/>
+    <!-- Lehrer Full name -->
+    <Preference
+        android:key="@string/pref_full_lehrer_name_key"
+        android:defaultValue="@string/pref_full_lehrer_name_default"/>
+
+    <!-- VplanPasswort -->
+    <Preference
+        android:key="@string/pref_vplan_passwort_key"
+        android:defaultValue="@string/pref_vplan_passwort_default"/>
+    <!-- Essenkundennummer -->
+    <Preference
+        android:key="@string/pref_essen_kundennummer_key"
+        android:defaultValue="@string/pref_essen_kundennummer_default"/>
+    <!-- Essenpasswort -->
+    <Preference
+        android:key="@string/pref_essen_passwort_key"
+        android:defaultValue="@string/pref_essen_passwort_default"/>
+    <!-- Variable which holds the state if either the user is logged in or not. -->
+    <Preference android:key="@string/pref_logged_in_key"
+        android:defaultValue="@bool/pref_already_logged_in_default"/>
+</PreferenceScreen>
